@@ -1,7 +1,7 @@
 :root {
     --text-color: #FFFFFF; /* Cor do texto */
-    --card-front-color: #870707; /* Vermelho para o fundo do cartão */
-    --card-back-color: #FFCCCC; /* Vermelho claro para o verso do cartão */
+    --card-front-color: #388E3C; /* Verde médio para o fundo do cartão */
+    --card-back-color: #A5D6A7; /* Verde claro suave para o verso do cartão */
 }
 
 body {
@@ -59,7 +59,7 @@ body {
 .cartao__conteudo__resposta p {
     color: var(--card-back-color);
     font-weight: 700;
-    text-shadow: 0 0 8px rgba(255, 0, 0, 0.8), 0 0 16px rgba(255, 0, 0, 0.6); /* Brilho vermelho */
+    text-shadow: 0 0 6px rgba(56, 142, 60, 0.8), 0 0 12px rgba(56, 142, 60, 0.6); /* Brilho verde suave */
 }
 
 .cartao.active .cartao__conteudo {
@@ -77,9 +77,9 @@ body {
 
 .cartao__conteudo__resposta {
     transform: rotateY(180deg);
-    background-color: rgba(255, 0, 0, 0.2); /* Vermelho claro */
+    background-color: rgba(165, 214, 167, 0.2); /* Verde claro suave */
     border: 4px solid var(--card-back-color);
-    box-shadow: 0 0 8px rgba(255, 0, 0, 0.8), 0 0 16px rgba(255, 0, 0, 0.6); /* Brilho vermelho */
+    box-shadow: 0 0 6px rgba(56, 142, 60, 0.8), 0 0 12px rgba(56, 142, 60, 0.6); /* Brilho verde suave */
 }
 
 footer {
