@@ -25,5 +25,5 @@ criaCartao(
 criaCartao(
     'Arte',
     'Quem pintou a Mona Lisa?',
-    'Da Vinci'
+    'Leonardo da Vinci'
 )
